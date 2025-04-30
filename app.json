@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "4pract",
+    "slug": "4pract-afiqqbnwwcwhqmkmw08g",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nyakitochka.app4practafiqqbnwwcwhqmkmw08g"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nyakitochka.app4practafiqqbnwwcwhqmkmw08g"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "de69c358-d2ef-4667-9206-b81d25bb6424"
+      }
+    },
+    "owner": "nyakitochka",
+    "updates": {
+      "url": "https://u.expo.dev/de69c358-d2ef-4667-9206-b81d25bb6424"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
